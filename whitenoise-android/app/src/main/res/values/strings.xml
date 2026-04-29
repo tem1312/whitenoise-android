@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Playback -->
+    <string name="play_audio">Play</string>
+    <string name="audio_pause">Pause</string>
+    <string name="audio_play">Play</string>
+
+    <!-- Noise Types -->
+    <string name="waves_label">Waves</string>
+    <string name="car_label">Car Cabin</string>
+    <string name="birds_label">Birds</string>
+    <string name="wind_label">Wind</string>
+
+    <!-- Volume & Timer -->
+    <string name="volume_label">Volume</string>
+    <string name="timer_label">Timer</string>
+    <string name="time_divider">:</string>
+    <string name="time_set">Set</string>
+    <string name="time_cancel">Cancel</string>
+
+    <!-- Settings -->
+    <string name="dark_theme_toggle">App theme</string>
+    <string name="dark_theme_summary">Specify the apps look and feel.</string>
+    <string name="play_over_toggle">Play Over Other Sounds</string>
+    <string name="play_over_summary">Plays noise over other sounds such as alarms, notifications, and music.</string>
+    <string name="settings_menu_title">Settings</string>
+    <string name="app_settings_group_title">App Settings</string>
+
+    <!-- Wave Settings -->
+    <string name="wave_label">Waves</string>
+    <string name="fade_label">Fade</string>
+    <string name="fade_volume_toast">Fade Volume</string>
+    <string name="wave_volume_toast">Wavy Volume</string>
+    <string name="wave_interval_choice_title">Wave Interval</string>
+    <string name="wave_interval_choice_dialog">Choose a wave interval:</string>
+    <string name="wave_interval_choice_default_value">8</string>
+    <string name="oscillate_interval_summary">Time between waves. Higher values are slower, lower values are faster.</string>
+
+    <!-- Arrays -->
+    <string-array name="theme_choices">
+        <item>Auto</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="wave_interval_choices">
+        <item>8 sec</item>
+        <item>10 sec</item>
+        <item>12 sec</item>
+        <item>15 sec</item>
+        <item>30 sec</item>
+    </string-array>
+
+    <string-array name="wave_interval_choice_values">
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+
+    <!-- Notifications -->
+    <string name="notification_paused">Paused</string>
+    <string name="notification_playing">Playing</string>
+    <string name="notification_close">Close</string>
+    <string name="notification_waves_type">Waves</string>
+    <string name="notification_car_type">Car Noise</string>
+    <string name="notification_birds_type">Birds Chirping</string>
+    <string name="notification_wind_type">Wind in Trees</string>
+
+    <!-- Blank -->
+    <string name="blank" />
+    <string name="app_name">White Noise Player</string>
+</resources>
